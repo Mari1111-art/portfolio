@@ -1,0 +1,14 @@
+.item {
+  font-size: 20px;
+  color: aquamarine;
+}
+
+.item:hover {
+  font-size: 10px;
+  color: rgb(117, 13, 63);
+  background-color: aqua;
+}
+
+* {
+  list-style: none;
+}
