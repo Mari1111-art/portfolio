@@ -1,9 +1,0 @@
-.item {
-  font-size: 20px;
-  color: blue;
-}
-
-.item:hover {
-  font-size: 40;
-  color: rgb(137, 29, 29);
-}
