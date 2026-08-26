@@ -29,23 +29,22 @@ body {
   gap: 15px;
 }
 
-.theme {
+.heading {
   text-align: center;
   color: brown;
   background-color: blanchedalmond;
   font-weight: 500;
-  text-align: center;
 }
 
-.paragraph {
+.about-section {
   background-size: cover;
   background-color: rgb(30, 84, 66);
   background-position: center;
-  position: relative;
   padding: 20px;
   background-image: url(assets/images/backgroundpic.jpg);
   color: white;
   line-height: 1.6;
+  height: 50vh;
 }
 
 .about_me {
@@ -54,7 +53,7 @@ body {
 }
 
 .my_image {
- width="150 
+  width: 150px;
   border-radius: 50%;
 }
 
