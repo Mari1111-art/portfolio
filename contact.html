@@ -8,7 +8,7 @@
   </head>
 
   <body style="background-color: rbg(192, 200, 193)">
-    <div style="margin: 15px">
+    <!-- <div style="margin: 15px">
       <button style="border: none; background: none; padding: 0">
         <a
           class="item"
@@ -53,6 +53,17 @@
           ტელეფონი: <a href="tel:+995 577 44 33 22"> +995 577 44 33 22 </a>
         </li>
       </ul>
-    </nav>
+    </nav> -->
+    <form>
+      <input type="text" placeholder="შეიყვანეთ სახელი" required />
+      <input type="text" placeholder="შეიყვანეთ გვარი" required />
+      <input
+        type="tel"
+        placeholder="ტელ. ნომერი"
+        readonly
+        value="5778844433"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}"
+      />
+    </form>
   </body>
 </html>
