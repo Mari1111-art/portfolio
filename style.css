@@ -29,6 +29,35 @@ body {
   gap: 15px;
 }
 
+.theme {
+  text-align: center;
+  color: brown;
+  background-color: blanchedalmond;
+  font-weight: 500;
+  text-align: center;
+}
+
+.paragraph {
+  background-size: cover;
+  background-color: rgb(30, 84, 66);
+  background-position: center;
+  position: relative;
+  padding: 20px;
+  background-image: url(assets/images/backgroundpic.jpg);
+  color: white;
+  line-height: 1.6;
+}
+
+.about_me {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.my_image {
+ width="150 
+  border-radius: 50%;
+}
+
 .item {
   font-size: 15px;
   color: black;
