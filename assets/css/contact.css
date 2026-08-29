@@ -1,3 +1,7 @@
+body {
+  background-color: rbg(192, 200, 193);
+}
+
 .item {
   font-size: 20px;
   color: aquamarine;

@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="assets/css/contact.css" />
     <title>კონტაცტი</title>
   </head>
-
-  <body style="background-color: rbg(192, 200, 193)">
-    <div style="margin: 15px">
+  <body>
+    <!-- <div style="margin: 15px">
       <button style="border: none; background: none; padding: 0">
         <a
           class="item"
@@ -53,6 +52,47 @@
           ტელეფონი: <a href="tel:+995 577 44 33 22"> +995 577 44 33 22 </a>
         </li>
       </ul>
-    </nav>
+    </nav> -->
+
+    <form>
+      <label>name</label>
+      <input type="text" placeholder="name" value="keti" required />
+      <label>age</label>
+      <input type="number" placeholder="age" />
+      <label>email</label>
+      <input type="email" placeholder="email" />
+      <label>gender</label>
+      <input type="text" placeholder="gender" value="female" readonly />
+      <label for="password">password</label>
+      <input type="password" placeholder="password" />
+      <input type="date" placeholder="date" />
+      <!-- disabled enable -->
+      <div>
+        <input type="radio" name="gender" value="male" id="male" />
+        <label for="radio">male</label>
+        <input type="radio" name="gender" value="female" id="female" />
+        <label for="female">female</label>
+      </div>
+      <div>
+        <input type="file" placeholder="file" />
+      </div>
+      <div>
+        <input type="tel" placeholder="tel" />
+      </div>
+      <div>
+        <input type="url" placeholder="url" />
+      </div>
+      <textarea
+        name="message"
+        placeholder="message"
+        cols="50"
+        rows="5"
+      ></textarea>
+      <select>
+        <option>opt1</option>
+        <option>opt2</option>
+      </select>
+      <button type="submit" enable>გაგზავნა</button>
+    </form>
   </body>
 </html>
