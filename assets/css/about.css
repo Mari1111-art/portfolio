@@ -1,4 +1,4 @@
-.about {
+.blogsSection {
   background-color: antiquewhite;
   border: #9e6f6f;
   text-align: center;
@@ -19,11 +19,14 @@
   background-color: rgb(161, 161, 187);
   text-align: center;
 }
-.article {
+.blogTitle {
   text-align: center;
   background-color: rgb(179, 135, 83);
 }
 .aboutitemtitle {
   background-color: aquamarine;
   text-align: center;
+}
+
+.blogItem p {
 }
