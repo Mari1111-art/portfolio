@@ -24,6 +24,8 @@
   background-image: url(../images/about.jpg);
   text-align: center;
   width: 24%;
+  overflow: hidden;
+  max-height: 400px;
 }
 .blogBg {
   background-image: url(../images/backgroundpic.jpg);
