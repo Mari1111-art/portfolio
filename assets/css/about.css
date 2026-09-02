@@ -13,7 +13,8 @@
 
 .blogContainer {
   display: flex;
-  gap: 10px;
+  gap: 1%;
+  flex-wrap: wrap;
 }
 
 .blogItem {
@@ -22,7 +23,7 @@
   border-color: rgb(75, 69, 81);
   background-image: url(../images/about.jpg);
   text-align: center;
-  width: 50%;
+  width: 24%;
 }
 .blogBg {
   background-image: url(../images/backgroundpic.jpg);
@@ -40,5 +41,24 @@
 .blogItem p {
   color: rgb(179, 135, 83);
 }
-@media (max-width: 768px;) {
+@media screen and (max-width: 768px) {
+  .blogContainer {
+    flex-direction: column;
+  }
+
+  .blogItem {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .blogItem {
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .blogItem {
+    width: 32%;
+  }
 }
