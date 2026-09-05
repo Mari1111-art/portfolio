@@ -12,3 +12,29 @@
   padding: 10px 20px;
   background-color: #7c1616a4;
 }
+
+.blogs {
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 32%;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  article {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 768px) {
+  article {
+    width: 100%;
+  }
+}
